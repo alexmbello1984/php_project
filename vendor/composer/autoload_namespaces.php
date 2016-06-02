@@ -7,4 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Monolog' => array($vendorDir . '/monolog/monolog/src'),
+    'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
+    'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib'),
+    'Dissect' => array($vendorDir . '/jakubledl/dissect/src'),
 );
